@@ -78,7 +78,3 @@ com.example.inthebox
 
 4. Execute em um emulador ou dispositivo físico com Android 7.0+
 
-## Contribuição
-
-Sinta-se à vontade para enviar PRs com melhorias, correções ou novas funcionalidades.
-
