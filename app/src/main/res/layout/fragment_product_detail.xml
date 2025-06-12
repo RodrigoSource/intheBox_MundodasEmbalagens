@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrow_back"
+            android:contentDescription="Back"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="24dp">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/vp_images"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:id="@+id/tv_detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_detail_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$99.99"
+                android:textColor="#03A9F4"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                android:id="@+id/tv_detail_dims"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="H: 20\nW: 25\nL: 22"
+                android:textSize="14sp"
+                android:textColor="#444444" />
+
+            <Button
+                android:id="@+id/btn_add_to_cart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADD TO CART"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="#03A9F4"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>
