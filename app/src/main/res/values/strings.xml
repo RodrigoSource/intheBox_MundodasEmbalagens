@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">intheBox</string>
+    <string name="app_logo">App Logo</string>
+    <string name="onboarding_title">Mundo das Embalagens</string>
+    <string name="navigation_drawer_open">Open menu</string>
+    <string name="navigation_drawer_close">Close menu</string>
+    <string name="back">Voltar</string>
+    <string name="perf">Meu Perfil</string>
+    <string name="name">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="prod">Products</string>
+    <string name="remove">Remove</string>
+    <string name="price">Preco</string>
+</resources>
